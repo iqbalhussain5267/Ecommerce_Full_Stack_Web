@@ -1,0 +1,41 @@
+# Environment variables and private keys
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies (Node.js)
+node_modules/
+
+# Dependencies (Python / Virtual Environments)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+ENV/
+
+# Production / Compile Outputs
+/dist
+/build
+/bin
+/obj
+
+# E-commerce Media / User Uploads
+# (Prevents local product images/receipts from cluttering your repo)
+/uploads/
+/media/
+/public/uploads/
+
+# Logs and Databases
+*.log
+logs/
+*.sqlite
+*.sqlite3
+*.sql
+*.dump
+
+# Editor and System settings
+.DS_Store
+.vscode/
+.idea/
